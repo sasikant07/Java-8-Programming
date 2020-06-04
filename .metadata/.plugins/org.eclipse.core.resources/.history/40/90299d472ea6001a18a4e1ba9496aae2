@@ -1,0 +1,23 @@
+package com.example;
+
+import java.util.ArrayList;
+import java.util.List;
+
+public class EmployeeTest {
+
+	public static void main(String[] args) {
+		
+		List<Employee> list = new ArrayList<Employee>();
+		
+		list.add(new Employee(101, "Kevin", 25));
+		list.add(new Employee(110, "Max", 25));
+		list.add(new Employee(121, "Steve", 25));
+		list.add(new Employee(119, "Lucy", 25));
+		list.add(new Employee(125, "Sam", 25));
+		list.add(new Employee(165, "Jessei", 25));
+		list.add(new Employee(145, "Andy", 25));
+		list.add(new Employee(125, "Newton", 25));
+		list.add(new Employee(146, "Einstien", 25));
+	}
+
+}

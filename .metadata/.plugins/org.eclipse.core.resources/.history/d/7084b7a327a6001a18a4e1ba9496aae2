@@ -1,0 +1,27 @@
+package com.example;
+
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
+public class LambdaExpressionsExample {
+
+	public static void main(String[] args) {
+		// Iterating collection using forEach loop
+		
+		Scanner sc = new Scanner(System.in);
+		
+		List<String> list = new ArrayList<String>();
+		
+		System.out.println("Enter the names to add : ");
+		String names = sc.next();
+		
+		list.add(names);
+		
+		list.forEach(
+				(names) -> System.out.println(names);
+		);
+		
+	}
+
+}

@@ -1,0 +1,23 @@
+package com.lambda.thread;
+
+public class LambdaThreadMain {
+
+	public static void main(String[] args) {
+		LambdaClass lc = new LambdaClass();
+		
+		new Thread( new LambdaClass() { ()-> {
+				for(int i=1; i <= 5; i++) {
+		            System.out.println("Main Thread: "+ i);
+		            try {
+		               Thread.sleep(1000);
+		            } catch(Exception e) {
+		               e.printStackTrace();
+		            }
+		         }
+		}).start();
+		
+		}
+		
+	}
+
+}

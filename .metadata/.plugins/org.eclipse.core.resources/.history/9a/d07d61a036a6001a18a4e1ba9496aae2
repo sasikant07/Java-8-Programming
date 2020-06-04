@@ -1,0 +1,12 @@
+package com.lambda.thread;
+
+import java.util.ArrayList;
+
+public class LambdaBookThread {
+
+	public static void main(String[] args) {
+		List<Book> list = new ArrayList<E>();
+
+	}
+
+}

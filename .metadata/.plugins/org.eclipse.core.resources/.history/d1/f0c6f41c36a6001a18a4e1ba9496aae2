@@ -1,0 +1,19 @@
+package com.lambda.thread;
+
+public class LambdaClass implements Runnable {
+
+	@Override
+	public void run() {
+		
+		for(int i=0;i<10;i++) {
+			System.out.println(Thread.currentThread().getName()+" Thread id : "+Thread.currentThread().getId()+" value is : "+i);
+		}
+		
+		try {
+			Thread.sleep(1000);
+		} catch (Exception e) {
+			e.printStackTrace();
+		}
+	}
+
+}

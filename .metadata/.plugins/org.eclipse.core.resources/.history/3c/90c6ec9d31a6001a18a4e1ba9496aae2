@@ -1,0 +1,11 @@
+package com.lambda.thread;
+
+public class LambdaClass implements Runnable {
+
+	@Override
+	public void run() {
+		
+		
+	}
+
+}

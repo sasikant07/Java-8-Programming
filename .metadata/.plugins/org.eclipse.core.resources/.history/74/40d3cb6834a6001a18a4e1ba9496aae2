@@ -1,0 +1,14 @@
+package com.lambda.thread;
+
+public class LambdaThreadMain {
+
+	public static void main(String[] args) {
+		LambdaClass lc = new LambdaClass();
+		
+		
+		
+		LambdaClass lambdaClass = () -> System.out.println("Rinning using lambda "+ )
+
+	}
+
+}

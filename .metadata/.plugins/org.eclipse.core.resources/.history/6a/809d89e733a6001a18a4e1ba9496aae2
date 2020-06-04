@@ -1,0 +1,13 @@
+package com.lambda.thread;
+
+public class LambdaThreadMain {
+
+	public static void main(String[] args) {
+		LambdaClass lc = new LambdaClass();
+		
+		Thread t1 = new Thread(lc);
+		Thread t2 = new Thread(lc);
+
+	}
+
+}
