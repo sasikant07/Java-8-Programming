@@ -15,6 +15,15 @@ public class SimpleStream {
 		names.add("Yuki");
 		
 		names.stream().distinct().forEach(System.out::println);
+		
+		/* Output :
+        
+		Charlie
+		Douglas
+		Sundaraman
+		Yuki
+		
+		 */
 	}
-
+	
 }
